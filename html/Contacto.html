@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articulos de anime</title>
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
 
@@ -18,27 +19,66 @@
         </header>
     </div>
 
-    <br>
-
     <nav id="Barra_Navegacion">
-            <a href="/index.html">Inicio</a>
+            <a href="/html/index.html">Inicio</a>
             <a href="/html/Producto.html">Productos</a>
             <a href="/html/Empresa.html">Empresa</a>
             <a href="/html/Contacto.html">Contacto</a>
         </nav>
-
-    <h2 class="encabezado_portada">
-        Contacto
-    </h1>
-
-
-
-    <footer class="pie_navegacion">
         <br>
-        Derechos Reservados
+        <h2 class="encabezado_portada">
+            <p>
+                Registro
+            </p>
+        </h2>
         <br>
-        Yennifer Carolina Rodriguez Sanchez/ 7-2
+        <form action="rodriguezyennifer48@gmailcom" method="get">
+        <h2>
         <br>
-    </footer>
+        <div class="texto">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required="true" placeholder="Escribe tu nombre">
+        <br>
+        <br>
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" id="Apellidos" name="Apellidos" required="true" placeholder="Escribe tus Apellidos">
+        <br>
+        <br>
+        <label for="Edad">Edad:</label>
+        <input type="text" id="Edad" name="Edad required="Edad" placeholder="(+18)">
+        <br>
+        <br>
+        <label for="Telefono">Telefono:</label>
+        <input type="text" id="Telefono" name="Telefono" required="Telefono" placeholder="+52 **********">
+        <br>
+        <br>
+        <label for="Correo">Correo:</label>
+        <input type="text" id="Correo" name="Correo" required="true" placeholder="Ingresa tu correo">
+        <br>
+        <br>
+        <label for="Horario">Horario::</label>
+        <input type="time" id="Horario" name="Horario">
+        <br>
+        <br>
+        <label for="Citas">Citas:</label>
+        <input type="date" id="Citas" name="Citas" max="2025-01-01" min="2022-01-01">
+        <br>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="40" rows="10">Comentarios</textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpíar">
+        </div>
+        </h2>
+        </form>
+
+        <br>
+            <footer class="pie_navegacion">
+        <br>
+            Derechos Reservados
+        <br>
+            Yennifer Carolina Rodriguez Sanchez / 7-2
+        <br>
+            </footer>
 </body>
 </html>

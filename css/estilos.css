@@ -3,11 +3,11 @@
     margin: 0;
 }
 body{
-    background-color: blue;
+    background-color: rgb(147, 137, 207);
 }
 #Encabezado{
     height: 7em;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(64, 14, 87);
     margin: auto;
     text-align: center;
     color: white;
@@ -33,6 +33,7 @@ body{
     font-weight: bold;
     font-size: 1.2em;
     padding: 1em;
+    font-size: 1.5em;
 }
 
 #Barra_Navegacion a:hover {
@@ -53,7 +54,6 @@ body{
         justify-content: center;
     }
 }
-
 .imagenes img {
     width: 430px;
     height: 350px;
@@ -68,7 +68,6 @@ body{
 .imagenes-texto{
     margin: auto;  
 }
-
 .pie_navegacion{
     background-color: rgb(142, 71, 175);
     text-align: center;
@@ -91,18 +90,13 @@ body{
 .encabezado_portada{
     color: white;
     text-align: center;
+    font-size: 2em;
 }
 #pie_navegacion{
     height: 5.5%;
     background-color: rgb(142, 71, 175);
     text-align: center;
     color: white;
-}
-#Barra_Navegacion1{
-    height: 5%;
-    background-color: rgb(142, 71, 175);
-    margin: auto;
-    text-align: center;
 }
 #contenedor-imagenes1 {
     text-align: center;
